@@ -11,12 +11,12 @@ html {
 
   /* ---------------Global Styles----------------- */
 body {
-    font-family: "Gills Sans", "Gill Sans MT", Calibri, Sans-Serif;
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
     margin:0;
 }
 
 header.primary {
-    background-color:#3b638b;
+    background-color: rgb(38, 52, 63, 1);
     text-align:center;
     color:#ffffff;
     padding:40px;
@@ -25,7 +25,16 @@ header.primary {
     margin:20px 0;
 }
   
-
+/*-------My Color Scheme-------
+ .color-palette-color-combination-color-combo-farbpalette-warm-cool-color-harmony-orange-green-blue-beige-sand-brown-1-rgba { color: rgba(117, 156, 191, 1); }
+.color-palette-color-combination-color-combo-farbpalette-warm-cool-color-harmony-orange-green-blue-beige-sand-brown-2-rgba { color: rgba(77, 103, 128, 1); }
+.color-palette-color-combination-color-combo-farbpalette-warm-cool-color-harmony-orange-green-blue-beige-sand-brown-3-rgba { color: rgba(38, 52, 63, 1); }
+.color-palette-color-combination-color-combo-farbpalette-warm-cool-color-harmony-orange-green-blue-beige-sand-brown-4-rgba { color: rgba(124, 167, 204, 1); }
+.color-palette-color-combination-color-combo-farbpalette-warm-cool-color-harmony-orange-green-blue-beige-sand-brown-5-rgba { color: rgba(100, 135, 165, 1); }
+*/
+/*-----My Font Family-----
+font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+*/
 
 header.primary h1 a{
     color:#ffffff;
