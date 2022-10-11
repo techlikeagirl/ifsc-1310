@@ -16,6 +16,11 @@ html {
     max-width:960px;
   }
 
+  /*------Responsive Images-----------*/
+  img{
+    max-width:100%;
+  }
+
   /* ---------------Global Styles----------------- */
 body {
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
@@ -84,7 +89,10 @@ header.primary nav a:hover, header.primary nav a:active {
   background:rgba(0,0,0,.8);
 }
 
-
+#intro{
+  border-bottom:1px dotted #c0c0c0;
+  padding-bottom:.9rem;
+}
 
 
 @media screen and (max-width:600){
@@ -100,4 +108,82 @@ header.primary nav a{
 
 header.primary nav li{
   margin-bottom:10px;
+}
+
+#intro h2{
+  color:rgb(38, 52, 63, 1)
+  border-bottom: 1px solid #c0c0c0;
+}
+
+#content{
+  display:flex;
+  justify-content: space-between;
+  flex-direction:row;
+  border-bottom:1px dotted #c0c0c0;
+  padding-bottom:2.9rem;
+}
+
+#content article.post{
+  width: 30%;
+  box-shadow: 0 4px 8px rgba(0,0,0,.4);
+  padding:10px;
+  border-radius:4px;
+  font-size:.8rem;
+  transition:.5s;
+}
+
+#content article.post:hover{
+  box-shadow: 0 8px 16px rgba(0,0,0,.4);
+}
+
+article.post figure{
+  margin:0;
+}
+
+time.post-date, figcaption, post-meta{
+  text-transform:uppercase;
+  color:#c0c0c0;
+}
+
+article.post figure img{
+  border:1px solid#c0c0c0;
+  padding:2px;
+  border-radius:4px;
+  margin: 5px auto;
+}
+
+article.post a{
+  color:rgb(38, 52, 63, 1);
+  transition:.5s;
+}
+
+article.post a:hover{
+  text-decoration:none;
+}
+/*--------Attribute Selector-------*/
+aside[role="complimentary"]{
+  background-color:#172635;
+  color:#ffffff;
+  padding:1.9rem;
+}
+
+aside .container{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+}
+
+aside article.widget{
+  width:43%;
+}
+
+article.widget a{
+  color:#fff;
+  display:block;
+  text-align:right;
+  margin-top:.8rem;
+}
+
+article.widget footer{
+  display:none;
 }
