@@ -94,22 +94,6 @@ header.primary nav a:hover, header.primary nav a:active {
   padding-bottom:.9rem;
 }
 
-
-@media screen and (max-width:600){
-  header.primary ul{
-  flex-direction:column;
-  width:50vw;
-  margin: 0 auto;
-}
-
-header.primary nav a{
-  display:block;
-}
-
-header.primary nav li{
-  margin-bottom:10px;
-}
-
 #intro h2{
   color:rgb(38, 52, 63, 1)
   border-bottom: 1px solid #c0c0c0;
@@ -186,4 +170,30 @@ article.widget a{
 
 article.widget footer{
   display:none;
+}
+
+#colophon{
+  background-color:aqua;
+}
+
+#colophon h6{
+  padding:20px;
+  margin:0;
+  text-align:center;
+  color:aqua;
+  font-size:.9rem;
+}
+@media screen and (max-width:600){
+  header.primary ul{
+  flex-direction:column;
+  width:50vw;
+  margin: 0 auto;
+}
+
+header.primary nav a{
+  display:block;
+}
+
+header.primary nav li{
+  margin-bottom:10px;
 }
