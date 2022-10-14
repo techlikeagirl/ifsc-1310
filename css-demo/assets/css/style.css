@@ -16,6 +16,30 @@ html {
     max-width:960px;
   }
 
+  .img-right{
+    float:right;
+    margin: 20px 0 20px 20px;
+    border:1px solid #172635;
+    padding:5px;
+    border-radius:6px;
+  }
+
+  .img-left{
+    float:left;
+    margin: 20px 20px 20px 0;
+    border:1px solid #172635;
+    padding:5px;
+    border-radius:6px;
+  }
+
+  .img-center{
+    display:block;
+    margin:20px auto;
+    border:1px solid #172635;
+    padding:5px;
+    border-radius:6px;
+  }
+
   /*------Responsive Images-----------*/
   img{
     max-width:100%;
@@ -149,6 +173,48 @@ aside[role="complimentary"]{
   background-color:#172635;
   color:#ffffff;
   padding:1.9rem;
+}
+
+#demo h2{}
+#demo p{}
+#demo a{
+  color:#172635;
+}
+
+#demo a:hover{
+  text-decoration:none;
+}
+
+#demo h3{
+  border-left:5px solid #172635;
+  padding:10px;
+}
+
+table{
+  width:100%;
+  border:1px solid #172635;
+  border-collapse:collapse;
+}
+table caption{
+  margin-bottom:10px;
+  font-weight:bold;
+}
+
+th{
+  background-color:#172635;
+  color:#c0c0c0;
+  padding:5px;
+}
+
+tr:nth-child(even){
+  background-color:#172635;
+}
+
+tr:hover{
+  background-color:rgba(0,0,0,.1)
+}
+td{border:1px solid #172635;
+  padding:5px;
 }
 
 aside .container{
