@@ -49,6 +49,7 @@ html {
 body {
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
     margin:0;
+    line-height:1.4rem;
 }
 
 header.primary {
@@ -215,10 +216,56 @@ tr:hover{
 }
 td{border:1px solid #172635;
   padding:5px;
+  text-align:right;
+  width:33%;
 }
 
-aside .container{
-  display:flex;
+td:first-of-type{
+text-align:left;
+}
+
+#demo ol{
+  list-style-type:lower-roman;
+  list-style-position:inside;
+}
+
+#demo dl{
+
+
+}
+
+#demo dt{
+  font-weight:bold;
+}
+
+#demo dd{
+  margin:0;
+}
+
+/* Adjacent sibling combinator*/
+#demo dd + dt{
+  margin-top:20px;
+  background:red;
+}
+
+#demo blockquote{
+  background-color:rgba(0, 0, 0, 0.1);
+  padding:30px 40px;
+  border:5px double #c0c0c0;
+  border-radius:15px;
+  font-size:1.2rem;
+}
+
+#demo cite{
+  display:block;
+  font-weight:bold;
+  font-size:.8rem;
+  text-align:right;
+  margin-top:5px;
+}
+
+
+/* Flex Direction */
   flex-direction:row;
   justify-content:space-around;
 }
@@ -249,17 +296,36 @@ article.widget footer{
   color:aqua;
   font-size:.9rem;
 }
-@media screen and (max-width:600){
-  header.primary ul{
-  flex-direction:column;
-  width:50vw;
-  margin: 0 auto;
-}
 
-header.primary nav a{
-  display:block;
-}
 
-header.primary nav li{
-  margin-bottom:10px;
+@media screen and (max-width: 600px) {
+  header.primary ul {
+    flex-direction: column;
+    width: 60vw;
+    margin: 0 auto;
+  }
+  header.primary nav a {
+    display: block;
+  }
+  header.primary nav li {
+    margin-bottom: 10px;
+  }
+  
+  #content {
+  flex-direction: column;
+  }
+  #content article.post{
+  width:100%;
+  margin-bottom:20px;
+  }
+  
+  aside .container{
+    flex-direction:column;
+  }
+
+  aside .container article.widget{
+    width:100%;
+  }
+  
+  
 }
