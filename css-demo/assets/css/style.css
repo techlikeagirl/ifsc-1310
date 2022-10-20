@@ -289,14 +289,14 @@ article.widget footer{
 }
 
 #colophon{
-  background-color:aqua;
+  background-color:#172635;
 }
 
 #colophon h6{
   padding:20px;
   margin:0;
   text-align:center;
-  color:aqua;
+  color:white;
   font-size:.9rem;
 }
 
