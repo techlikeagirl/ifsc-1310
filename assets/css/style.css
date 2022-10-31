@@ -1,15 +1,31 @@
-html{
-    background-color:rgba(140, 123, 109, 1);
+html {
+    background-color:rgba(242, 91, 4, 1);
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+header.primary{
+    background-color:rgba(1, 80, 89, 1);
+    font-size:30px;
+    color:rgba(242, 191, 162, 1);
+    text-align:center;
+
 }
 
 
 
 
 /* Color Theme Swatches in RGBA */
-.HIPPOCRATA-1-rgba { color: rgba(3, 1, 63, 1); }
-.HIPPOCRATA-2-rgba { color: rgba(26, 28, 63, 1); }
-.HIPPOCRATA-3-rgba { color: rgba(140, 123, 109, 1); }
-.HIPPOCRATA-4-rgba { color: rgba(242, 242, 242, 1); }
-.HIPPOCRATA-5-rgba { color: rgba(191, 191, 191, 1); }
+.mother-and-son-travel-in-mountains-at-sunset,-panorama-1-rgba { color: rgba(1, 80, 89, 1); }
+.mother-and-son-travel-in-mountains-at-sunset,-panorama-2-rgba { color: rgba(242, 91, 4, 1); }
+.mother-and-son-travel-in-mountains-at-sunset,-panorama-3-rgba { color: rgba(242, 191, 162, 1); }
+.mother-and-son-travel-in-mountains-at-sunset,-panorama-4-rgba { color: rgba(242, 4, 4, 1); }
+.mother-and-son-travel-in-mountains-at-sunset,-panorama-5-rgba { color: rgba(165, 13, 13, 1); }
+
+
 
 
