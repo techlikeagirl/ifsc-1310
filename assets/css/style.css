@@ -1,5 +1,5 @@
 html {
-    background-color:rgba(242, 91, 4, 1);
+    background-color:rgba(242, 191, 162, 1);
     box-sizing: border-box;
   }
   *,
@@ -9,7 +9,7 @@ html {
   }
 
 header.primary{
-    background-color:rgba(1, 80, 89, 1);
+    background-color:rgba(242, 4, 4, 1);
     font-size:30px;
     color:rgba(242, 191, 162, 1);
     text-align:center;
