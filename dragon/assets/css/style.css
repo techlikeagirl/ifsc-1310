@@ -82,53 +82,84 @@ header.primary nav a:active {
 }
 
 /*Content Area*/
-.wrapper1{
-    display: grid;
-    grid-template: repeat(6,50px) / repeat(3,1fr);
-    grid-column-gap: 3px;
-    grid-row-gap: 3px;
-  }
-}
-.wrapper1 > div img {
-  max-width: 100%;
-  max-height: 100%;
-}
-.a{
-  display:grid;
-  align-items:center;
-  justify-content:center;
+#background{
   text-align:center;
-  margin:20px 20px 20px;
-  font-size:30px;
-  grid-template-columns:repeat(1,3fr);
-  grid-template-rows:repeat(1,3fr);
+  line-height:1.5rem;
+  margin:30px;
+  font-size:1.5rem;
+  border-bottom:2px dotted;
 }
-.b{
+#overview{
   display:grid;
-  align-items:center;
-  justify-content:center;
-  text-align:center;
-  margin:20px 20px 20px;
-  font-size:30px;
+  grid-gap:30px;
   grid-template-columns:repeat(2,1fr);
-  grid-template-rows: 40px 200px 40px;
+  padding:3rem;
+  background-color:rgba(51, 83, 107, 0.8);
 }
-.c{
+#overview img{
+  width:90%;
+  border-radius:20px;
+}
+.drag-overview{
+  text-align:center;
+  line-height:1.5rem;
+}
+.drag-overview h3{
+  font-size:2rem;
+}
 
+.header{
+  text-align:center;
+  font-size:2rem;
 }
-.d{
+
+#configurations{
+  display:grid;
+  grid-template-columns:3fr 3fr 3fr;
+  grid-gap:20px;
+  grid-template-rows:auto;
+  grid-template-areas:
+  "cargo crew space-lab"
+  "cargo crew space-lab";
+  padding:30px;
+  place-items:center;
+  justify-content:space-evenly;
   
+  }
+
+.cargo{
+  grid-template-area:cargo;
+	box-sizing: border-box;
+	width: 60%;
+	border: solid rgba(8, 58, 89, 1) 5px;
+  border-radius:10px;
+	padding: 20px;
 }
-.e{
-  
+.cargo img{
+  width:100%;
 }
-.f{
-  
+.crew{
+  grid-template-area:crew;
+  box-sizing: border-box;
+	width: 60%;
+	border: solid rgba(8, 58, 89, 1) 5px;
+  border-radius:10px;
+	padding: 20px;
 }
-
-
-
-
+.crew img{
+  width:100%;
+}
+.space-lab{
+  grid-template-area:space-lab;
+  box-sizing: border-box;
+	width: 60%;
+	border: solid rgba(8, 58, 89, 1) 5px;
+  border-radius:10px;
+	padding: 20px;
+}
+.space-lab img{
+  width:80%;
+}
 
 /*FAQs Page-Details*/
 details{
@@ -151,7 +182,10 @@ summary{
   margin:-.5em -.5em 0;
 }
 
-
+#wufoo-zf34gsd0iw9rit{
+  margin-block:inherit;
+  margin:80px;
+}
 
 
 
