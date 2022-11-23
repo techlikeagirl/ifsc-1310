@@ -9,6 +9,8 @@ html {
 
 body{
    background:rgba(153, 192, 216, 1); 
+   font-family: 'Roboto', sans-serif;
+   margin:50px;
 }
 
 /*Header information*/
@@ -161,6 +163,28 @@ header.primary nav a:active {
   width:80%;
 }
 
+/* History Page */
+#content{
+text-align:left;
+font-size:1em;
+line-height:1.5em;
+margin:100px;
+}
+#content h2{
+  text-align:center;
+}
+#content h3{
+  text-align:center;
+}
+.center img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+ 
+
 /*FAQs Page-Details*/
 details{
   border:3px solid rgba(51, 83, 107, 0.8);
@@ -182,6 +206,7 @@ summary{
   margin:-.5em -.5em 0;
 }
 
+/* Contact Page */
 #wufoo-zf34gsd0iw9rit{
   margin-block:inherit;
   margin:80px;
@@ -200,8 +225,15 @@ summary{
 #colophon a{
   color:#ffffff;
 }
+
+/* Color Scheme */
 .Astronaut-in-the-outer-space-over-the-planet-Earth.-Abstract-wallpaper.-Spaceman.-Elements-of-this-image-furnished-by-NASA-1-rgba { color: rgba(19, 26, 38, 1); }
 .Astronaut-in-the-outer-space-over-the-planet-Earth.-Abstract-wallpaper.-Spaceman.-Elements-of-this-image-furnished-by-NASA-2-rgba { color: rgba(59, 116, 165, 1); }
 .Astronaut-in-the-outer-space-over-the-planet-Earth.-Abstract-wallpaper.-Spaceman.-Elements-of-this-image-furnished-by-NASA-3-rgba { color: rgba(109, 180, 242, 1); }
 .Astronaut-in-the-outer-space-over-the-planet-Earth.-Abstract-wallpaper.-Spaceman.-Elements-of-this-image-furnished-by-NASA-4-rgba { color: rgba(8, 58, 89, 1); }
 .Astronaut-in-the-outer-space-over-the-planet-Earth.-Abstract-wallpaper.-Spaceman.-Elements-of-this-image-furnished-by-NASA-5-rgba { color: rgba(153, 192, 216, 1); }
+
+/* Font Family */
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Hind Vadodara', sans-serif;
+font-family: 'Roboto', sans-serif;
