@@ -1,0 +1,239 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }   
+
+body{
+   background:rgba(153, 192, 216, 1); 
+   font-family: 'Roboto', sans-serif;
+   margin:50px;
+}
+
+/*Header information*/
+header.primary{
+    background-image: url(../img/spacecraft.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    padding:60px;
+    text-align:right;
+    color:#ffffff;
+    text-shadow: 1px 1px #000000;
+    font-size:2.4rem;
+    border-style:none;
+    opacity:0.9;
+    border:30px;
+
+}
+
+.replace-scott a{
+    width:400px;
+    height:83px;
+    background:url("../img/spacexlogo.png");
+    white-space:nowrap;
+    text-indent:100%;
+    overflow:hidden;
+    display:block;
+}
+header.primary h1 {
+  font-size: 100px;
+  margin: 20px 0;
+  position: relative;
+}
+
+header.primary h2{
+  color:#ffffff;
+  text-align: center;
+}
+    
+header.primary nav ul {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0;
+  max-width: 900px;
+  margin: 20px auto;
+}
+
+header.primary nav li {
+  list-style-type: none;
+  padding: 0;
+  width: 20%;
+  text-align:center;
+}
+
+header.primary nav a:link,
+header.primary nav a:visited {
+  color: white;
+  text-decoration: none;
+  background-color: #000000;
+  background-color: rgba(142, 166, 184, 0.4);
+  padding: 8px 16px;
+  border-radius: 10px;
+  transition: 0.6s;
+  display: block;
+}
+
+header.primary nav a:hover,
+header.primary nav a:active {
+  background-color: rgba(51, 83, 107, 0.8);
+}
+
+/*Content Area*/
+#background{
+  text-align:center;
+  line-height:1.5rem;
+  margin:30px;
+  font-size:1.5rem;
+  border-bottom:2px dotted;
+}
+#overview{
+  display:grid;
+  grid-gap:30px;
+  grid-template-columns:repeat(2,1fr);
+  padding:3rem;
+  background-color:rgba(51, 83, 107, 0.8);
+}
+#overview img{
+  width:90%;
+  border-radius:20px;
+}
+.drag-overview{
+  text-align:center;
+  line-height:1.5rem;
+}
+.drag-overview h3{
+  font-size:2rem;
+}
+
+.header{
+  text-align:center;
+  font-size:2rem;
+}
+
+#configurations{
+  display:grid;
+  grid-template-columns:3fr 3fr 3fr;
+  grid-gap:20px;
+  grid-template-rows:auto;
+  grid-template-areas:
+  "cargo crew space-lab"
+  "cargo crew space-lab";
+  padding:30px;
+  place-items:center;
+  justify-content:space-evenly;
+  
+  }
+
+.cargo{
+  grid-template-area:cargo;
+	box-sizing: border-box;
+	width: 60%;
+	border: solid rgba(8, 58, 89, 1) 5px;
+  border-radius:10px;
+	padding: 20px;
+}
+.cargo img{
+  width:100%;
+}
+.crew{
+  grid-template-area:crew;
+  box-sizing: border-box;
+	width: 60%;
+	border: solid rgba(8, 58, 89, 1) 5px;
+  border-radius:10px;
+	padding: 20px;
+}
+.crew img{
+  width:100%;
+}
+.space-lab{
+  grid-template-area:space-lab;
+  box-sizing: border-box;
+	width: 60%;
+	border: solid rgba(8, 58, 89, 1) 5px;
+  border-radius:10px;
+	padding: 20px;
+}
+.space-lab img{
+  width:80%;
+}
+
+/* History Page */
+#content{
+text-align:left;
+font-size:1em;
+line-height:1.5em;
+margin:100px;
+}
+#content h2{
+  text-align:center;
+}
+#content h3{
+  text-align:center;
+}
+.center img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+ 
+
+/*FAQs Page-Details*/
+details{
+  border:3px solid rgba(51, 83, 107, 0.8);
+  border-radius:4px;
+  padding: 40px 40px 0;
+  font-size: 25px;
+}
+
+details[open]{
+  padding: .5em;
+}
+details[open] summary{
+  border-bottom:1px solid #aaa;
+  margin-bottom:.5em;
+}
+
+summary{
+  font-weight:bold;
+  margin:-.5em -.5em 0;
+}
+
+/* Contact Page */
+#wufoo-zf34gsd0iw9rit{
+  margin-block:inherit;
+  margin:80px;
+}
+
+
+
+/*Footer Information*/
+#colophon{
+  background:rgba(8, 58, 89, 1);
+  padding:15px;
+  font-size:30px;
+  text-align:center;
+  color:#ffffff;
+}
+#colophon a{
+  color:#ffffff;
+}
+
+/* Color Scheme */
+.Astronaut-in-the-outer-space-over-the-planet-Earth.-Abstract-wallpaper.-Spaceman.-Elements-of-this-image-furnished-by-NASA-1-rgba { color: rgba(19, 26, 38, 1); }
+.Astronaut-in-the-outer-space-over-the-planet-Earth.-Abstract-wallpaper.-Spaceman.-Elements-of-this-image-furnished-by-NASA-2-rgba { color: rgba(59, 116, 165, 1); }
+.Astronaut-in-the-outer-space-over-the-planet-Earth.-Abstract-wallpaper.-Spaceman.-Elements-of-this-image-furnished-by-NASA-3-rgba { color: rgba(109, 180, 242, 1); }
+.Astronaut-in-the-outer-space-over-the-planet-Earth.-Abstract-wallpaper.-Spaceman.-Elements-of-this-image-furnished-by-NASA-4-rgba { color: rgba(8, 58, 89, 1); }
+.Astronaut-in-the-outer-space-over-the-planet-Earth.-Abstract-wallpaper.-Spaceman.-Elements-of-this-image-furnished-by-NASA-5-rgba { color: rgba(153, 192, 216, 1); }
+
+/* Font Family */
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Hind Vadodara', sans-serif;
+font-family: 'Roboto', sans-serif;
